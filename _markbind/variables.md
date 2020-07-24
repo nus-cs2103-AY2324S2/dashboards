@@ -5,9 +5,9 @@
 <variable name="module_name">Software Engineering</variable>
 <variable name="module_color">success</variable>
 
-<variable name="S">1</variable>
-<variable name="semester">AY2021S{{ S }}</variable>
-<variable name="period">2020 Aug-Dec</variable>
+<variable name="S">2</variable>
+<variable name="semester">AY2324S{{ S }}</variable>
+<variable name="period">2024 Jan-Apr</variable>
 <variable name="current_week">0</variable>
 <variable name="archived"></variable>  <!-- keep empty during semester time -->
 
