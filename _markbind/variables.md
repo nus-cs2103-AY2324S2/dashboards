@@ -5,11 +5,11 @@
 <variable name="module_name">Software Engineering</variable>
 <variable name="module_color">success</variable>
 
-<variable name="S">1</variable>
-<variable name="semester">AY2021S{{ S }}</variable>
-<variable name="period">2020 Aug-Dec</variable>
+<variable name="S">2</variable>
+<variable name="semester">AY2324S{{ S }}</variable>
+<variable name="period">2024 Jan-Apr</variable>
 <variable name="current_week">0</variable>
-<variable name="archived"></variable>  <!-- keep empty during semester time -->
+<variable name="archived">yes</variable>  <!-- keep empty during semester time -->
 
 <variable name="url_announcements">https://luminus.nus.edu.sg/modules/5aee78b3-3927-432e-85a5-27be5f6a00fd/announcements/active</variable>
 <variable name="url_files">https://luminus.nus.edu.sg/modules/5aee78b3-3927-432e-85a5-27be5f6a00fd/files</variable>
