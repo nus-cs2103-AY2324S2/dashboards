@@ -2,7 +2,7 @@
   title: "dashboards"
 </frontmatter>
 
-<h1 class="display-3">{{ module_pair }} dashboards</h1>
+<h1 class="display-3">{{ module_pair }} dashboards <small><small><small><small>[{{ semester }}]</small></small></small></small></h1>
 
 <div class="lead">
 
