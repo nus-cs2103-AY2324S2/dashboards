@@ -19,6 +19,40 @@ title: "iP progress dashboard"
   * <span class="badge bg-secondary">!~~ABC~~</span> : optional item due soon, not done yet.
 * If you have queries about the data shown in this page, please email `{{ module | lower }}@comp.nus.edu.sg`.
 * This dashboard is **updated {{ "every 2-3 days" if tic4002 else "daily" }}**.
+* **Troubleshooting:**
+
+<panel type="seamless" header="Why an incremented related to a tag is not green?">
+
+Try these steps, and wait till the next dashboard update to see if they turn green as expected.
+
+1. Go to `https://github.com/YOUR_USER_NAME/ip/tags`. It should look like this:<br>
+   <pic src="images/tag-list.png"/><br>
+   Confirm the tag in question is listed there. If it is not listed, here are the possibilities:
+   * You created the tag but never pushed it.<br>
+     Remedy: You need to push the tags (pushing a branch doesn't automatically push tags in it).
+   * You might have mixed up commit messages and tags, and used the tag name as a commit message instead).<br>
+      Remedy: Create the tag
+1. If the tag in question appears in the list, click on the commit hash shown just below it (e.g. <span class="badge badge-light text-secondary"> :octicon-commit: b6e91a0</span>). This brings you to a page containing commit details.
+   * Confirm the commit is in the `master`branch. An example is shown below. Only tags in the `master` branch are detected by the dashboard.<br>
+     <pic src="images/commit-details.png"/><br>
+     Remedy: Wait till the branch that has the tag is merged to the `master` branch, push the `master` branch to the fork.
+   * Ensure a warning message like the following doesn't appear at the top of the page.<br>
+     <pic src="images/orphan-commit-warning.png"/><br>
+     If it does, most likely you pushed the tag to the fork, but not the commit it belongs to.<br>
+     Remedy: Push the commit to the fork, and confirm the warning does not appear anymore.
+
+</panel>
+<panel type="seamless" header="Why an incremented related to a branch is not green?">
+
+1. Go to `https://github.com/YOUR_USER_NAME/ip/branches/active`. It should look like this:<br>
+   <pic src="images/active-branches.png"/><br>
+   Confirm the branch in question is listed there. If it is not listed, push the branch to the fork.
+1. Note the numbers `n|m` shown for each branch. If the `m` is not zero, that means the branch is ahead of the `master` branch by that number of commits, and hence, not considered _fully_ merged (only merged branches are detected by the dashboard). Reasons:
+   * You did not push the branch after merging it.<br>
+     Remedy: After merging a branch to the `master` branch, you need to push _both_ branches to the fork.
+   * You pushed commits to the branch after merging it to the `master` branch.<br>
+     Remedy: Either delete those extra commits from the branch (both locally and in the fork) or merge the branch to the `master` branch again.
+</panel>
 </box>
 
 <include src="{{ module | lower }}/ip-progress-table-fragment.md" />
