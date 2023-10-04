@@ -18,6 +18,20 @@ title: "tP progress dashboard"
   * The [?] suffix (e.g., <span class="badge bg-dark">ABC [?]</span>) indicates there are no data for that item yet. It will be updated in a later time when the relevant data are available.
 * If you have queries about the data shown in this page, please email `{{ module | lower }}@comp.nus.edu.sg`.
 * This dashboard is **updated {{ "every 2-3 days" if tic4002 else "daily" }}**.
+* **Troubleshooting:**
+
+<panel type="seamless" header="Why my issue is not being detected?">
+
+Ensure the issue is assigned to you, assigned to the corresponding milestone, and is closed (if the deliverable is expecting completed issues). After all those conditions are met, wait for the next dashboard update and check again.
+</panel>
+<panel type="seamless" header="Why my PR is not being detected?">
+
+Ensure the PR is assigned to the corresponding milestone, and is merged. Also check the additional conditions (you can view those conditions when you expand the <span class="badge bg-light text-primary me-1">details :fas-bars:</span> icon in your row of the table). After all the required conditions are met, wait for the next dashboard update and check again.
+</panel>
+<panel type="seamless" header="The required change was committed/pushed but is not being detected">
+
+If the change was part of a PR, it can only be detected after that PR has been merged. After the PR is merged, wait for the next dashboard update and check again.
+</panel>
 </box>
 
 <include src="{{ module | lower }}/tp-progress-table-fragment.md" />
