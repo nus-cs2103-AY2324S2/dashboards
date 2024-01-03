@@ -1,0 +1,101 @@
+{
+  "enableSearch": true,
+  "pages": [
+    {
+      "src": "contents/forum-activities.md",
+      "title": "Forum Activities Dashboard",
+      "headings": {
+        "forum-activities-dashboard": "Forum activities dashboard"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/ip-comments.md",
+      "title": "iP review comments dashboard",
+      "headings": {
+        "ip-review-comments-dashboard": "iP review comments dashboard"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/ip-progress.md",
+      "title": "iP progress dashboard",
+      "headings": {
+        "ip-progress-dashboard": "iP progress dashboard"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/participation.md",
+      "title": "Participation dashboard",
+      "headings": {
+        "participation-dashboard": "Participation dashboard"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/projectGrading.md",
+      "headings": {
+        "cs2113t-m16-1": "CS2113T-M16-1",
+        "cs2113t-m16-1-2": "CS2113T-M16-1",
+        "cs2113t-m16-2": "CS2113T-M16-2",
+        "cs2113t-m16-2-2": "CS2113T-M16-2",
+        "cs2113t-t12-1": "CS2113T-T12-1",
+        "cs2113t-t12-1-2": "CS2113T-T12-1",
+        "cs2113t-t12-2": "CS2113T-T12-2",
+        "cs2113t-t12-2-2": "CS2113T-T12-2",
+        "cs2113t-t12-3": "CS2113T-T12-3",
+        "cs2113t-t12-3-2": "CS2113T-T12-3",
+        "cs2113t-t12-4": "CS2113T-T12-4",
+        "cs2113t-t12-4-2": "CS2113T-T12-4",
+        "cs2113t-t13-1": "CS2113T-T13-1",
+        "cs2113t-t13-1-2": "CS2113T-T13-1",
+        "cs2113t-t13-2": "CS2113T-T13-2",
+        "cs2113t-t13-2-2": "CS2113T-T13-2",
+        "cs2113t-t13-3": "CS2113T-T13-3",
+        "cs2113t-t13-3-2": "CS2113T-T13-3",
+        "cs2113-t14-1": "CS2113-T14-1",
+        "cs2113-t14-1-2": "CS2113-T14-1",
+        "cs2113-t14-2": "CS2113-T14-2",
+        "cs2113-t14-2-2": "CS2113-T14-2",
+        "cs2113-t14-3": "CS2113-T14-3",
+        "cs2113-t14-3-2": "CS2113-T14-3",
+        "cs2113-t14-4": "CS2113-T14-4",
+        "cs2113-t14-4-2": "CS2113-T14-4",
+        "cs2113-t15-1": "CS2113-T15-1",
+        "cs2113-t15-1-2": "CS2113-T15-1",
+        "cs2113-t15-2": "CS2113-T15-2",
+        "cs2113-t15-2-2": "CS2113-T15-2",
+        "cs2113-t15-3": "CS2113-T15-3",
+        "cs2113-t15-3-2": "CS2113-T15-3",
+        "cs2113-t15-4": "CS2113-T15-4",
+        "cs2113-t15-4-2": "CS2113-T15-4"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/tp-comments.md",
+      "title": "tP comments dashboard",
+      "headings": {
+        "tp-comments-dashboard": "tP comments dashboard"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/tp-progress.md",
+      "title": "tP progress dashboard",
+      "headings": {
+        "tp-progress-dashboard": "tP progress dashboard"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "index.md",
+      "title": "dashboards",
+      "headings": {
+        "cs2103-t-dashboards-ay2324s2": "CS2103/T dashboards [AY2324S2]"
+      },
+      "headingKeywords": {}
+    }
+  ]
+}
