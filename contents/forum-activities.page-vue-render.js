@@ -8,6 +8,6 @@ with(this){return _c('div',{attrs:{"id":"app"}},[_c('header',{attrs:{"fixed":""}
 with(this){return _c('div',{staticClass:"fixed-header-padding",attrs:{"id":"content-wrapper"}},[_c('h1',{staticClass:"display-4",attrs:{"id":"forum-activities-dashboard"}},[_v("Forum activities dashboard"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#forum-activities-dashboard","onclick":"event.stopPropagation()"}})]),_v(" "),_c('p',[_v("This dashboard is "),_c('strong',[_v("updated weekly")]),_v(".")]),_v(" "),_c('div',[_c('p',[_c('span',{staticClass:"dimmed"},[_v("[We have not started updating this dashboard yet]")])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.2.0")]),_v(", generated on Wed, 24 Jan 2024, 2:13:43 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.2.0")]),_v(", generated on Wed, 24 Jan 2024, 14:05:57 GMT+8]")])])])}
 }];
   
