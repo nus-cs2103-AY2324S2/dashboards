@@ -21,7 +21,7 @@ title: "iP progress dashboard"
 * This dashboard is **updated {{ "every 2-3 days" if tic4002 else "daily" }}**.
 * **Troubleshooting:**
 
-<panel type="seamless" header="Why is an incremented related to a _tag_ not green?">
+<panel type="seamless" header="Why is an increment related to a _tag_ not green?">
 
 Try these steps, and wait till the next dashboard update to see if they turn green as expected.
 
@@ -42,7 +42,7 @@ Try these steps, and wait till the next dashboard update to see if they turn gre
      Remedy: Push the commit to the fork, and confirm the warning does not appear anymore.
 
 </panel>
-<panel type="seamless" header="Why is an incremented related to a _branch_ not green?">
+<panel type="seamless" header="Why is an increment related to a _branch_ not green?">
 
 1. Go to `https://github.com/YOUR_USER_NAME/ip/branches/active`. It should look like this:<br>
    <pic src="images/active-branches.png"/><br>
