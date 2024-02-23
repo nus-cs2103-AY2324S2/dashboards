@@ -8,6 +8,6 @@ with(this){return _c('div',{attrs:{"id":"app"}},[_c('header',{attrs:{"fixed":""}
 with(this){return _c('div',{staticClass:"fixed-header-padding",attrs:{"id":"content-wrapper"}},[_c('h1',{staticClass:"display-4",attrs:{"id":"tp-comments-dashboard"}},[_v("tP comments dashboard"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#tp-comments-dashboard","onclick":"event.stopPropagation()"}})]),_v(" "),_c('p',[_v("Sorted based on the number of comments given to "),_c('em',[_v("others'")]),_v(" PRs, but also showing comments on own PRs and other comments given. "),_c('strong',[_v("Updated weekly")]),_v(".")]),_v(" "),_c('div',[_c('p',[_c('span',{staticClass:"dimmed"},[_v("[We have not started updating this dashboard yet]")])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.2.0")]),_v(", generated on Fri, 23 Feb 2024, 19:44:38 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.2.0")]),_v(", generated on Sat, 24 Feb 2024, 0:18:29 GMT+8]")])])])}
 }];
   
